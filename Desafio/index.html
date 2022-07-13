@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../shared/css/indexstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container cont f-left">
+        <table class="font">
+            <div id="calc">0</div>
+            <tbody>
+                <tr>
+                    <td>
+                        <button class="btn btn-clear calcbuttonsp">C
+                    </td>
+
+                    <td>
+                        <button onclick="fun(2)" class="btn btn calcbuttonspm">+/-
+                    </td>
+                    <td>
+
+                        <button onclick="fun(3)" class="btn btn calcbuttonsp">%
+                    </td>
+                    <td>
+                        <button onclick="div()" class="btn btn calcbuttonsp">÷</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="fun(1)" class="btn btn calcbuttonnum">1
+                    </td>
+
+                    <td>
+                        <button onclick="fun(2)" class="btn btn calcbuttonnum">2
+                    </td>
+                    <td>
+
+                        <button onclick="fun(3)" class="btn btn calcbuttonnum">3
+                    </td>
+                    <td>
+                        <button onclick="sum()" class="btn btn calcbutton">+</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="fun(4)" class="btn btn calcbuttonnum">4
+                    </td>
+
+                    <td>
+                        <button onclick="fun(5)" class="btn btn calcbuttonnum">5
+                    </td>
+                    <td>
+
+                        <button onclick="fun(6)" class="btn btn calcbuttonnum">6
+                    </td>
+                    <td>
+                        <button onclick="sub()" class="btn btn calcbutton">-</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button onclick="fun(7)" class="btn btn calcbuttonnum">7
+                    </td>
+
+                    <td>
+                        <button onclick="fun(8)" class="btn btn calcbuttonnum">8
+                    </td>
+                    <td>
+
+                        <button onclick="fun(9)" class="btn btn calcbuttonnum">9
+                    </td>
+                    <td>
+                        <button onclick="multiply()" class="btn btn calcbutton">*</button>
+                    </td>
+                    
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button onclick="fun(0)" class="btn btn calcbuttonnum" id="zero">0
+                    </td>
+                    <td>
+
+                        <button onclick="point()" class="btn btn calcbuttonnum">.
+                    </td>
+                    <td>
+
+                        <button onclick="result()" class="btn btn calcbutton">=
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
